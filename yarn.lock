@@ -1603,10 +1603,6 @@ bail@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/bail/-/bail-1.0.1.tgz#912579de8b391aadf3c5fdf4cd2a0fc225df3bc2"
 
-balanced-match@^0.4.1:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
-
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -1749,13 +1745,6 @@ boom@2.x.x:
 bounce.js@^0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/bounce.js/-/bounce.js-0.8.2.tgz#3e9ebce253e72b42f4178b5c81db48538d674a83"
-
-brace-expansion@^1.0.0:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
-  dependencies:
-    balanced-match "^0.4.1"
-    concat-map "0.0.1"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
@@ -2147,7 +2136,7 @@ chrome-trace-event@^1.0.0:
 
 chrome-web-store-item-property@^1.1.2:
   version "1.1.2"
-  resolved "http://registry.npmjs.org/chrome-web-store-item-property/-/chrome-web-store-item-property-1.1.2.tgz#237df356c7fc2bd13dded6d446f7124b53f38f52"
+  resolved "https://registry.npmjs.org/chrome-web-store-item-property/-/chrome-web-store-item-property-1.1.2.tgz#237df356c7fc2bd13dded6d446f7124b53f38f52"
   dependencies:
     array-includes "^3.0.1"
     cheerio "^0.20.0"
@@ -2555,7 +2544,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2:
 
 crisper@^2.0.0:
   version "2.0.2"
-  resolved "http://registry.npmjs.org/crisper/-/crisper-2.0.2.tgz#188a7da3d00dcf0c64eff7f253d23dacffba7197"
+  resolved "https://registry.npmjs.org/crisper/-/crisper-2.0.2.tgz#188a7da3d00dcf0c64eff7f253d23dacffba7197"
   dependencies:
     command-line-args "^2.0.2"
     dom5 "^1.0.1"
@@ -5104,7 +5093,7 @@ is-plain-object@^2.0.1, is-plain-object@^2.0.3, is-plain-object@^2.0.4:
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
-  resolved "http://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
+  resolved "https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
 is-primitive@^2.0.0:
   version "2.0.0"
@@ -6211,15 +6200,9 @@ minimalistic-assert@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.0.tgz#702be2dda6b37f4836bcb3f5db56641b64a1d3d3"
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.3.tgz#2a4e4090b96b2db06a9d7df01055a62a77c9b774"
-  dependencies:
-    brace-expansion "^1.0.0"
-
-minimatch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
+"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
   dependencies:
     brace-expansion "^1.1.7"
 
